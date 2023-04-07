@@ -33,6 +33,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.5' //jackson支持
     implementation 'com.google.code.gson:gson:2.8.9'    //gson支持
     implementation 'androidx.core:core-ktx:1.9.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
